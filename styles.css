@@ -1,0 +1,36 @@
+@font-face {
+    font-family:sofachrome_it;
+    src: url(./fonts/sofachrome_it.ttf);    
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color: royalblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+.navbar-brand{
+    font-family: sofachrome_it;
+}
+
+.carousel-item>img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.s-info{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 200%
+};
+
+
+/* #carousel{
+    min-height: 100%;
+} */
