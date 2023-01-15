@@ -2,13 +2,45 @@
     font-family:sofachrome_it;
     src: url(./fonts/sofachrome_it.ttf);    
 }
+/* Subrayado Hover del NavBar */
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    content: '';
+    background-color: #0a1e29;
+    width: 0%;
+    height: 3px;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+    
+}
+/***/
+#carrusel{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    border: white solid 5px;
+}
 
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
 
 body{
     box-sizing: border-box;
     background-color: royalblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
+    background-image: url(/images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .navbar-brand{
@@ -22,6 +54,9 @@ body{
 }
 
 .s-info{
+    margin-top: 5vh;
+    padding-top: 5vh;
+    border-top: white dotted 4px;
     display: flex;
     flex-direction: column ;
     justify-content: center;
