@@ -2,6 +2,10 @@
     font-family:sofachrome_it;
     src: url(./fonts/sofachrome_it.ttf);    
 }
+
+
+
+
 /* Subrayado Hover del NavBar */
 .navbar .navbar-nav .nav-item{
     position: relative;
